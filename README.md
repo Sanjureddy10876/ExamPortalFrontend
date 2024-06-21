@@ -1,3 +1,17 @@
+# after cloning run this commands in terminal
+npm install --lagacy-peer-deps
+
+$env:NODE_OPTIONS = '--openssl-legacy-provider'
+
+ng serve
+
+for mac laptop
+
+export NODE_OPTIONS =--openssl-legacy-provider
+
+ng serve
+
+
 # Examfront
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
